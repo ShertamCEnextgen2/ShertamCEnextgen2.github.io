@@ -1,0 +1,115 @@
+
+      .body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* MP4 video background */
+      .background-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Make video cover the whole screen */
+        z-index: -1; /* Place the video behind other content */
+        pointer-events: none; /* Prevent interaction with video */
+      }
+
+      /* Sticky header styling */
+      h1 {
+        position: sticky;
+        top: 0;
+        background-color: rgba(
+          248,
+          249,
+          250,
+          0.8
+        ); /* Semi-transparent background */
+        padding: 10px;
+        width: 100% ;
+        margin: 0;
+        z-index: 1000;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      /* Styling for content */
+      p {
+        padding: 20px;
+        color: white; /* Text color for visibility */
+      }
+      #pic{
+        display: flex;
+        justify-content:center ;
+      }
+
+      img.special-image {
+        display: block;
+        /* margin: 20px auto; */
+        width: 700px;
+        top: 0;
+        height: auto;
+
+      }
+
+      /* Button container */
+      .button-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        gap: 10px;
+      }
+
+      /* Button styling */
+      .button {
+        padding: 10px 20px;
+        background-color: #0033ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: #ed0606d4;
+      }
+
+      /* Animated div */
+      .animate-div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        animation: 3s linear slide-in, 3s ease-out 5s slide-out;
+      }
+
+      /* Keyframes for slide-in animation */
+      @keyframes slide-in {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+
+      /* Keyframes for slide-out animation */
+      @keyframes slide-out {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(100%);
+        }
+      }

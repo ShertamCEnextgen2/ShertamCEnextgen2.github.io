@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(180, 229, 239);
+}
+.h1 {
+    color: darkviolet;
+    font-family: cursive;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+
+}
+
+.information {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: auto auto auto auto;
+    /* padding-top: 10px;
+        padding-right: 100px; */
+    border: 2px solid red;
+    gap: 10px;
+}
+
+.img {
+    display: grid;
+    grid-row: auto;
+    justify-content: start;
+}
+
+.private {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(6, 84, 31);
+    background-color: rgb(141, 245, 97);
+}
+
+.school {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(129, 11, 255);
+    background-color: rgb(255, 184, 250);
+}
+
+.talented {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(62, 29, 207);
+    background-color: rgb(56, 174, 252);
+}
+
+.contact {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(162, 134, 11);
+    background-color: rgb(251, 255, 28);
+}
+.con {
+    color: blue;
+}
+.con:hover {
+    color: rgb(255, 0, 0);
+}
+.maps {
+    color: black;
+}
+.maps:hover {
+    color: rgb(255, 0, 0)
+}
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        justify-content: start;
+        gap: 10px;
+    }
+
+    .information {
+        display: grid;
+        width: 600px;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        /* padding-top: 10px;
+            padding-right: 100px; */
+        border: 2px solid red;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .grid {
+        justify-content: start;
+        gap: 10px;
+    }
+
+    .information {
+        display: grid;
+        width: 700px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        border: 1px solid rgb(0, 0, 0);
+        gap: 10px;
+    }
+
+    .private {
+        border-style: dotted;
+        border-width: 1px;
+        border-color: rgb(6, 84, 31);
+        background-color: rgb(141, 245, 97);
+    }
+
+    .school {
+        border-style: dotted;
+        border-width: 1px;
+        border-color: rgb(129, 11, 255);
+        background-color: rgb(255, 184, 250);
+    }
+
+    .talented {
+        border-style: dotted;
+        border-width: 1px;
+        border-color: rgb(62, 29, 207);
+        background-color: rgb(56, 174, 252);
+    }
+
+    .contact {
+        border-style: dotted;
+        border-width: 1px;
+        border-color: rgb(162, 134, 11);
+        background-color: rgb(251, 255, 28);
+    }
+
+
+}

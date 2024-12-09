@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky Heading with MP4 Background</title>
+    <link rel="stylesheet" href="css.css"/>     
+  </head>
+  <body>
+    <!-- MP4 video background -->
+    <video class="background-video" autoplay muted loop>
+      <source src="videoplayback.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Sticky header -->
+    <h1>Portfolio Duo 2024</h1>
+
+    <!-- Animated div -->
+    <!-- <div class="animate-div"></div> -->
+
+    <!-- Image -->
+    
+     <div id="pic">
+        <img class="special-image" id="special-image" src="picpic.png" alt="Placeholder Image" />
+     </div>
+    
+
+    <!-- Buttons -->
+    <div class="button-container">
+      <button class="button">
+        <a href="Assignment.html">goToShertamWebsite</a>
+      </button>
+      <button class="button" onclick="goToKobkuWebsite()">
+        <a href="duoinform.html">goToKobkuWebsite</a>
+      </button>
+    </div>
+
+    <script>
+
+     
+      
+
+      const pic = document.getElementById("special-image")
+
+      pic.addEventListener("mouseover",function() {
+        pic.setAttribute("src","picpic.png")  
+        
+      })
+      pic.addEventListener("mouseout",function() {
+        pic.setAttribute("src","84751.png")  
+      })
+    </script>
+  </body>
+
+  </style>
+</html>
