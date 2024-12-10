@@ -1,5 +1,5 @@
 body{
-    background-color:blueviolet;
+    background-color:rgb(205, 161, 246);
 }
 
 .h1 {
@@ -13,6 +13,12 @@ body{
     grid-template-columns: auto auto;
     justify-content: space-around;
 
+}
+.button {
+    color: black;
+}
+.button:hover {
+    color: rgb(255, 0, 0);
 }
 
 .information {
@@ -59,17 +65,17 @@ body{
     background-color: rgb(204, 252, 13);
 }
 .a {
-    color: rgb(0, 4, 255);
+    color: rgb(0, 247, 255);
 }
 
 .a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(179, 255, 0);
 }
 .ct {
     color: rgb(153, 0, 255);
 }
 .ct:hover {
-    color: rgb(6, 0, 92); }
+    color: rgb(255, 0, 0); }
 @media screen and (max-width: 1050px) {
     .grid {
         justify-content: start;

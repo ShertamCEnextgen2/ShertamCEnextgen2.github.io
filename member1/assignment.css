@@ -6,6 +6,12 @@ body{
     font-family: cursive;
 
 }
+.button {
+    color: black;
+}
+.button:hover {
+    color: rgb(255, 0, 0);
+}
 
 .grid {
     display: grid;
@@ -22,6 +28,7 @@ body{
         padding-right: 100px; */
     border: 2px solid red;
     gap: 10px;
+    font-family:monospace;
 }
 
 .img {
@@ -64,7 +71,7 @@ body{
     color: rgb(255, 0, 0);
 }
 .maps {
-    color: black;
+    color: rgb(43, 0, 255);
 }
 .maps:hover {
     color: rgb(255, 0, 0)

@@ -72,7 +72,7 @@
       .button {
         padding: 10px 20px;
         background-color: #0033ff;
-        color: white;
+        color: rgb(255, 255, 255);
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -83,6 +83,14 @@
 
       .button:hover {
         background-color: #ed0606d4;
+      }
+
+      .but {
+        color: antiquewhite;
+      }
+
+      .but:hover{
+        color: black;
       }
 
       /* Animated div */
